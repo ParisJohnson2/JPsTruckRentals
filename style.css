@@ -1,0 +1,20 @@
+.header-note {
+    font-size: 50px;
+}
+
+.side-note {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: red;
+    text-align: center;
+} 
+
+.card-container {
+    margin-top: 30px;
+}
+
+.msg {
+    background-image: linear-gradient(black, black, silver);
+}
+
