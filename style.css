@@ -98,3 +98,45 @@ body {
     background-position: 0% 50%;
   }
 }
+
+.c-us {
+  background-image: url(JPs-contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-form {
+  width: 1005;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background: #000000d0;
+  display: inline;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.info-hd {
+  color: red;
+  font-weight: 800px;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.info-sec-f {
+  text-align: center;
+  font-weight: 800px;
+  font-size: 30px;
+  color: silver;
+}
+
+.text-info-sec-f {
+  font-size: 20px;
+}
