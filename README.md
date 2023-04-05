@@ -4,6 +4,7 @@
 
 
 Tools used in creation of this website,
-    Bootstrap Version 4.6.2
-    Font Awesome
-    Jquery Version 3.5.1
+
+Bootstrap Version 4.6.2
+Font Awesome
+Jquery Version 3.5.1
