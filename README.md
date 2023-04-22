@@ -1,10 +1,9 @@
 # JPsTruckRentals
 
-![JPs Presentation](https://user-images.githubusercontent.com/106056434/230210040-a76fb948-5277-4750-9666-1c14134bbb68.jpeg)
+![JPs-trucks-portfolio-preview](https://user-images.githubusercontent.com/106056434/233811558-33177fd0-ad06-4034-bd7b-e17a68657afd.jpg)
+
 
 
 Tools used in creation of this website,
 
-Bootstrap Version 4.6.2,
-Font Awesome,
-Jquery Version 3.5.1
+Bootstrap Version 5
