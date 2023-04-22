@@ -1,144 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <!-- Meta tags -->
+        <!-- Meta Tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <!-- Title Icon -->
-        <link rel="icon" href="truck-logo.jpg">
-        <title>JP's Truck Rentals</title>
-        <!-- Link to CSS file -->
+        <!-- Tab Icon -->
+        <link rel="icon" href="./Images/JPs-logo-tap.jpg">
+        <title>JPs Trucks</title>
+        <!-- Links -->
         <link rel="stylesheet" href="style.css">
         <!-- Font Awesome Link-->
         <script src="https://kit.fontawesome.com/520e23ec00.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     </head>
     <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <!-- Navbar Logo With DropDown Menu -->
-            <a class="navbar-brand" href="#head" style="color: silver; font-family: cursive;" id="nbLogo">
-                JP's Truck Rentals
-                <i class="fa-solid fa-truck-pickup" style="color: red;"></i>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#why-us" style="color: red; font-family: cursive;" id="nv-offer">What We Offer</a>
-                    <a class="nav-link" href="#showcase" style="color: red; font-family: cursive;" id="nv-inv">Peak At Inventory</a>
-                    <a class="nav-link" href="#get-us" style="color: red; font-family: cursive;" id="nv-tch">Get In Touch</a>
+        <!-- Navbar, Dont expand -->
+        <nav class="navbar fixed-top navbar-dark bg-black border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand justify-content-start" href="#" style="color: #990033;">JPs Trucks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-label="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inventory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-        <!-- Header With image -->
-        <div class="container-fluid head" style="padding-top: 160px; padding-bottom: 180px;" id="head">
-            <div class="container main" style="padding-bottom: 30px;">
-                <div class="row">
-                    <div class="header col-12 col-md-6">
-                        <div class="header-note" style="text-align: center; margin-top: 120px; color: black; font-family: cursive;">Drive The Truck You Like</div>
-                        <div class="side-note" style="font-family: Lucida Grande;">Drive The Truck You Love</div>
-                        <div class="d-flex justify-content-center" style="margin-top: 20px;">
-                            <a class="btn btn-danger" href="#showcase" role="button">Peak At Our Inventory</a>
-                        </div>
+        <!-- Hero section -->
+        <div class="container-fluid" style="background-color: #CCCC99;">
+            <div class="hero container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./Images/truck-head-image.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" style="border-radius: 50%;">
                     </div>
-                    <div class="card-container col-12 col-md-6" style="text-align: center;"><img class="img-fluid" src="truck-head-image.jpg" style="border-radius: 50%;"></div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3" style="color: #990033;">DRIVING</br><span style="color: black; padding-left: 9px;">REDEFINED</span></h1>
+                        <p class="lead">We stand behind every truck we sell. We'll help you find the truck that you need at a price you can afford.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Why Us Header -->
-        <div class="container-fluid msg" id="why-us">
+        <!-- Showcase Section -->
+        <div class="container-fluid justify-center showcase">
             <div class="container">
                 <div class="row">
-                    <div class="msg-header col-12 col-md-12" style="font-size: 80px; color: red; margin-top: 40px; text-align: center; padding-top: 60px; font-family: cursive">What We Offer</div>
-                </div>
-            </div>
-        </div>
-        <!-- Arrow To Point Down -->
-        <div class="container arrow-down" style="text-align: center; font-size: 1in; color: red; background-color: black;"><i class="fa-solid fa-arrow-down"></i></div>
-        <!-- Why Us Section -->
-        <div class="container-fluid" style="background-image: url(JPs-why-us-background.jpg); background-repeat: no-repeat;background-size: cover; padding-top: 20px; padding-bottom: 30px;">
-            <div class="container Us-sec" style="justify-content: center; padding-top: 50px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-4" style="padding-bottom: 35px;">
-                            <img class="img-fluid w-100 border border-dark" src="JPs-Image-truck-appearance.jpg">
-                            <h1 class="appearance-head" style="background-color: black; text-align: center; font-weight: bold; color: red; font-family: cursive; padding-bottom: 10px;">Your Image Matters <i class="fa-solid fa-person-circle-check"></i></h1>
-                            <p class="appearance-txt rounded-bottom" style="background-color: black; text-align: center; font-size: 24px; font-weight: bold; margin-top: -10px; font-family: Lucida Grande; color: white; padding-bottom: 47px;">No advertisements are on our trucks to ensure full enjoyment!</p>
+                    <div class="row pb-5">
+                        <div class="col-12 col-lg-5">
+                            <h3 class="mt-5 text" style="color: #990033;">Let us know exactly what you're looking for?</h3>
+                            <p class="text" style="color: #CCCC99;">"We can help you get into the ride you want"</p>
                         </div>
-                        <div class="col-12 col-md-4" style="padding-bottom: 35px;">
-                            <img class="img-fluid w-100 border border-dark" src="JPs-Image-mileage.jpg">
-                            <h1 class="mileage-head" style="background-color: black; text-align: center; color: red; font-family: cursive; padding-bottom: 10px;">Worried About Mileage<i class="fa-solid fa-question"></i></h1>
-                            <p class="mileage-txt rounded-bottom" style="background-color: black; text-align: center; font-size: 24px; font-weight: bold; margin-top: -10px; font-family: Lucida Grande; color: white; padding-bottom: 13px;">Our leases allow all customers to exceed 500 miles over contract limits at no extra cost!</p>
-                        </div>
-                        <div class="col-12 col-md-4" style="padding-bottom: 35px;">
-                            <img class="img-fluid w-100 border border-dark" src="JPs-Image-warranty.jpg">
-                            <h1 class="warranty-head" style="background-color: black; text-align: center; color: red; font-family: cursive; padding-bottom: 10px;">Check Engine Light <i class="fa-solid fa-exclamation"></i><br>No Problem</h1>
-                            <p class="warranty-txt rounded-bottom" style="background-color: black; text-align: center; font-size: 24px; font-weight: bold; margin-top: -10px; font-family: Lucida Grande; color: white;">Full bumber to bumber warranty to all customer!</p>
+                        <div class="col-12 col-lg-7">
+                            <button type="button" class="btn btn-outline-light mt-5 float-right btn-lg">Browse Inventory</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Showcase Inventory Header -->
-        <div class="container-fluid showcase-inventory-head" style="background-color: black;">
-            <h1 class="container showcase-head" style="text-align: center; font-size: 30px; color: silver; padding-top: 80px; font-family: cursive; padding-bottom: 20px;" id="showcase">Small Peak At Our Inventory <i class="fa-solid fa-trailer inv-h"></i><i class="fa-solid fa-truck-pickup inv-h"></i></h1>
-        </div>
-        <!-- Showcase Inventory Section -->
-        <div class="container-fluid inventory-sec-bg">
-            <div class="container">
-                <div class="row overflow-auto flex-nowrap pb-5">
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-1.jpg">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-2.jpg">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-3.jpg">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-4.jpg">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-5.jpg">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-6.jpg">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <img class="img-fluid w-100 rounded-top rounded-bottom" src="JPs-inv-7.jpg">
+                    <div class="row overflow-auto flex-nowrap pb-5">
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-1.jpg"> 
+                        </div>
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-2.jpg"> 
+                        </div>
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-3.jpg"> 
+                        </div>
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-4.jpg">
+                        </div>
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-5.jpg"> 
+                        </div>
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-6.jpg">
+                        </div>
+                        <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                            <img class="img-fluid w-100 rounded-top" src="./Images/JPs-inv-7.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid c-us" id="get-us">
-            <div class="container c-form">
-                <div class="form">
-                    <div class="form-info">
-                        <div class="info-hd" style="text-align: center;">Get In Touch</div>
-                        <div class="container info-sec-f" style="overflow: auto;">
-                            <p class="text-info-sec-f">+1 (410)-221-1966</p>
-                            <p class="text-info-sec-f">JPsTruckRentals@gmail.com</p>
-                            <div class="form-quote">
-                                <h1 style="color: silver; font-family: Impact;">Your Truck Is Waiting</h1>
+        <!-- What to Expect Section -->
+        <div class="container-fluid" style="background-color: #CCCC99;">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="pb-2" style="text-align: center; color: #990033;">WHAT TO EXPECT BUYING FROM US?</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./Images/JPs-Image-appearance.jpg);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #FFFFFF;">NO HIDDEN MARKUP</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./Images/JPs-Image-warranty.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #FFFFFF;">LOW COST WARRANTY</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./Images/JPs-Image-mileage.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #FFFFFF;">LOW MILEAGE</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Last Message Section -->
+        <div class="container-fluid" style="background-color: black;">
+            <div class="container px-4 py-5" id="custom-cards">
+                <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./Images/JPs-your-truck-background.jpg);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-5 lh-1 fw-bold" style="color: red; text-align: center;">YOUR TRUCK IS WAITING</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Footer -->
-        <footer class="container-fluid border-solid" style="background-color: black; padding-top: 35px; padding-bottom: 35px;">
-            <!-- My Name is linked to my Linkedln page and opens in new tap-->
-            <div class="footer-txt" style="text-align: center; color: white;"><i class="fa-solid fa-truck-monster" style="color: red;"></i> Designed by <a href="https://www.linkedin.com/in/johnson-paris/" target="_blank">Paris Johnson</a></div>
-        </footer> 
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                <p class="col-md-4 mb-0 text" style="color: #990033;">&copy; 2023 JPs Truck, Inc</p>
+                <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="./Images/JPs-logo-tap.jpg" class="bi me-2" width="40" height="32">
+                </a>
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text" style="color: #666633;">Back to Top</a></li>
+                </ul>
+            </footer>
+        </div>
+        <!--Bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
-    <!-- Link to Js file -->
-    <script src="application.js"></script>
-    <!-- Popper & Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </html>
